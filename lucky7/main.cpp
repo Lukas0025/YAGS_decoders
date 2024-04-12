@@ -120,7 +120,7 @@ int main(int argc, char *argv[]) {
 	int time = std::stoi(argv[2]);
 	bool first = true;
 
-	std::cout << "{\"satellite\":\"lucky7\",\"observation\":\"\",\"telemetry\":{";
+	std::cout << "{\"satellite\":\"lucky7\",\"telemetry\":{";
 
 	while (!data_in.eof()) {
 		uint8_t buffer[FRAME_SIZE];
